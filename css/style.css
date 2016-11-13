@@ -1,0 +1,186 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif, arial, tahoma;
+}
+
+/* HEADER */
+
+.logo{
+	position: absolute;
+	top: 50px;
+	left: 47px;
+}
+
+.menu_header{
+	background-image: url(../img/header_bar.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 966px;
+	padding: 0;
+	margin: 130px 0px 0px 47px;
+}
+
+.menu_header li{
+	float: left;
+	list-style: none;
+}
+
+.menu_header li:first-child{
+	padding-left: 52px;
+	padding-right: 52px;
+}
+
+.menu_header li:nth-child(2){
+	padding-left: 24px;
+	padding-right: 25px;
+}
+
+.menu_header li:nth-child(3){
+	padding-left: 57px;
+	padding-right: 59px;
+}
+	
+.menu_header li:last-child{
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.menu_header a{
+	font-size: 14.67px;
+	color: #ffffff;
+	padding: 0;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+.menu_header li:hover{
+	background: url(../img/hover.png) repeat-x;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+/* SIDE MENU */
+
+.menu_goods {
+	margin: 40px 0px 0px 47px;
+	padding: 0;
+	float: left;
+	
+}
+
+.menu_goods li{
+	width: 240px;
+	height: 39px;
+	margin-bottom: 0;
+	border-left: 1px solid #838383;
+	border-bottom: 1px solid #838383;
+	border-right: 1px solid #838383;
+	list-style: none;
+}
+
+.menu_goods li:first-child{
+	border-top: 1px solid #838383;
+}
+
+.menu_goods a{
+	display: block;
+	margin: 0;
+	padding: 0px 0px 0px 22px;
+	color: #656363;
+	font-size: 13.33px;
+	text-decoration: none;
+	line-height: 39px;
+}
+
+.menu_goods a:hover{
+	padding-left: 34px;
+	color: black;
+}
+
+/* CONTENT */
+
+.img_bicycle{
+	float: left;
+	margin: 40px 0px 0px 44px;
+	height: 400px;
+	width: 678px;
+	border: 1px solid gray;
+	
+}
+
+.img_bicycle p{
+	margin-top: 45px;
+	text-align: center;
+}
+
+.lorem {
+	height: 140px;
+	width: 680px;
+	margin: 482px 0px 40px 332px;
+	
+}
+
+.lorem p{
+	padding: 0px 35px 20px 40px;
+	color: #656363;
+	font-size: 13.33px;
+	text-align: left;
+}
+
+/* FOOTER */
+
+.footer{
+	background-image: url(../img/footer_bar.png);
+	background-repeat: no-repeat;
+	height: 40px;
+	width: 966px;
+	margin: 0px 0px 60px 47px; 
+	padding: 0px;
+}
+
+.footer li{
+	display: inline;
+	color: #656363;
+	font-size: 13.33px;
+}
+
+.footer a{
+	height: 40px;
+	padding: 0px;
+	color: #656363;
+	font-size: 13.33px;
+	line-height: 40px;
+	text-decoration: none;
+}
+
+.footer li:first-child{
+	padding-left: 52px;
+	padding-right: 56px;
+}
+
+.footer li:nth-child(2){
+	padding-left: 22px;
+	padding-right: 23px;
+}
+
+.footer li:nth-child(3){
+	padding-left: 60px;
+	padding-right: 60px;
+}
+	
+.footer li:nth-child(4){
+	padding-left: 20px;
+	padding-right: 24px;
+}
+
+.footer li:last-child{
+	padding-left: 240px;
+	padding-right: 20px;
+	text-align: right;
+}
+
+.footer li:hover{
+	text-decoration: underline;
+}
