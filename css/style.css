@@ -3,54 +3,41 @@ body {
 	padding: 0;
 	font-family: sans-serif, arial, tahoma;
 }
-
+.main {
+	margin: 0 auto;
+    width: 1060px;
+    height: 950px;
+}
 /* HEADER */
 
 .logo{
-	position: absolute;
-	top: 50px;
-	left: 47px;
+	margin: 50px 0 0 47px;
 }
 
 .menu_header{
-	background-image: url(../img/header_bar.png);
-	background-repeat: no-repeat;
+	padding: 0;
+	margin: 40px 0px 0px 47px;
 	height: 40px;
 	width: 966px;
-	padding: 0;
-	margin: 130px 0px 0px 47px;
+	background-image: url(../img/header_bar.png);
+	background-repeat: no-repeat;
 }
 
 .menu_header li{
 	float: left;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: transparent;
 	list-style: none;
 }
 
-.menu_header li:first-child{
-	padding-left: 52px;
-	padding-right: 52px;
-}
-
-.menu_header li:nth-child(2){
-	padding-left: 24px;
-	padding-right: 25px;
-}
-
-.menu_header li:nth-child(3){
-	padding-left: 57px;
-	padding-right: 59px;
-}
-	
-.menu_header li:last-child{
-	padding-left: 24px;
-	padding-right: 24px;
-}
-
 .menu_header a{
+	display: block;
+	padding: 0 45px 0 45px;
 	font-size: 14.67px;
 	color: #ffffff;
-	padding: 0;
-	height: 40px;
 	line-height: 40px;
 	text-decoration: none;
 }
@@ -67,6 +54,7 @@ body {
 	margin: 40px 0px 0px 47px;
 	padding: 0;
 	float: left;
+	position: absolute;
 	
 }
 
@@ -103,11 +91,11 @@ body {
 
 .img_bicycle{
 	float: left;
-	margin: 40px 0px 0px 44px;
+	margin: 40px 0px 0px 333px;
 	height: 400px;
 	width: 678px;
 	border: 1px solid gray;
-	
+		
 }
 
 .img_bicycle p{
@@ -148,39 +136,19 @@ body {
 
 .footer a{
 	height: 40px;
-	padding: 0px;
+	padding: 0 45px 0 45px;
 	color: #656363;
 	font-size: 13.33px;
 	line-height: 40px;
 	text-decoration: none;
 }
 
-.footer li:first-child{
-	padding-left: 52px;
-	padding-right: 56px;
-}
-
-.footer li:nth-child(2){
-	padding-left: 22px;
-	padding-right: 23px;
-}
-
-.footer li:nth-child(3){
-	padding-left: 60px;
-	padding-right: 60px;
-}
-	
-.footer li:nth-child(4){
-	padding-left: 20px;
-	padding-right: 24px;
-}
-
 .footer li:last-child{
-	padding-left: 240px;
-	padding-right: 20px;
+	padding-left: 223px;
+	padding-right: 25px;
 	text-align: right;
 }
 
-.footer li:hover{
+.footer li a:hover{
 	text-decoration: underline;
 }
